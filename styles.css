@@ -1,0 +1,153 @@
+.title-brand{
+  font-family: 'Secular One', sans-serif;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  margin-left: 2%;
+  color: #3f4652;
+}
+/*--------------------INTRO----------------------------------*/
+.intro{
+  font-family: 'Inter', sans-serif;
+      color: #bc1823;
+      text-align: left;
+        font-weight: bold;
+}
+.bgim{
+  background-image: url('images/paper2.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 10% 0 15% 5%;
+}
+.intro-heading{
+  font-weight: bold;
+  letter-spacing: 15px;
+  font-size: 6rem;
+}
+.intro-text{
+      font-size: 2rem;
+      letter-spacing: 2px;
+}
+.intro-img{
+  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+/*----------------------------TOUR--------------------------------------*/
+#tour{
+  padding: 5% 5%;
+  background-color: #fff;
+  position: relative;
+}
+.tour-title{
+font-size: 4rem;
+margin: 5% 0 5% 3%;
+}
+.tour-row{
+  text-align: left;
+  padding:0 2%;
+}
+.img-city{
+  width: 100%;
+}
+.tour-text{
+  margin: 5% 0 ;
+color: #675d54;
+font-family: "Red Hat Display", sans-serif;
+}
+.tour-text-size2{
+  font-size: 2.5rem;
+}
+.tour-text-size15{
+  font-size: 1.8rem;
+}
+
+/*----------------------------TOUR--------------------------------------*/
+.contact-div{
+text-align: right;
+}
+
+.ch{
+      text-align: right;
+      font-size: 4rem;
+      letter-spacing: 3px;
+}
+.contact-text{
+  font-family: "Red Hat Display", sans-serif;
+  letter-spacing: 3px;
+}
+.bgim2{
+  background-image: url('images/paper2.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+padding: 20% 5% 5% 0;
+}
+
+@media (max-width:1100px){
+  .intro-heading{
+    font-size: 4rem;
+    letter-spacing: 10px;
+  }
+  .intro-text{
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+  }
+  .intro-img{
+    visibility: hidden;
+  }
+  .title-brand{
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+  }
+  .tour-title{
+  font-size: 3rem;
+}
+.tour-text-size2{
+  font-size: 1.8rem;
+}
+.tour-text-size15{
+  font-size: 1.4rem;
+}
+.ch{
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+.contact-text{
+  font-size: 0.8rem
+      letter-spacing: 2px;
+    }
+}
+@media (max-width:650px){
+  .intro-heading{
+    font-size: 3rem;
+    letter-spacing: 5px;
+  }
+  .intro-text{
+        font-size: 1rem;
+  }
+  .intro-img{
+    visibility: hidden;
+  }
+  .title-brand{
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+  }
+  .tour-title{
+  font-size: 2rem;
+}
+.tour-text-size2{
+  font-size: 1.4rem;
+}
+.tour-text-size15{
+  font-size: 1.2rem;
+}
+.ch{
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+.contact-text{
+  font-size: 0.5rem
+      letter-spacing: 1px;
+    }
+}
